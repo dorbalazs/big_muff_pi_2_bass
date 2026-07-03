@@ -2882,9 +2882,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "NOTES TO SELF:\n- I messed up the DPDT switch footprint's pin numbering\n- a few B.Cu traces need some attention. Especially towards the board edge\n- also 3PDT wiring is messed up. pins 4 and 5 are switched up\n- change coupling cap values to align with reality\n- audioprobe leg 1 of C24\n- you flipped an op-amp dumbass (U2A)\n"
+	(text "NOTES TO SELF:\n- I messed up the DPDT switch footprint's pin numbering\n- a few B.Cu traces need some attention. Especially towards the board edge\n- also 3PDT wiring is messed up. pins 4 and 5 are switched up\n- change coupling cap values to align with reality\n- audioprobe leg 1 of C24\n- you flipped an op-amp dumbass (U2A)\n- C18 should be way smaller (e.g. 4n7)\n- Test if bridging R26 solves low output - omit if it does\n"
 		(exclude_from_sim no)
-		(at 298.45 12.7 0)
+		(at 298.45 18.415 0)
 		(effects
 			(font
 				(size 2.54 2.54)
