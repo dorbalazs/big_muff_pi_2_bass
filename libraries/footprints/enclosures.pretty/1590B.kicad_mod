@@ -1,0 +1,176 @@
+(footprint "1590B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f3eeabdf-6fc2-40a0-be83-56ef75cc5ea5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "1590B"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fbaa5e37-0b24-46b9-8519-95bbb66462ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff2cacc7-dd8e-4179-9745-0f7396eff708")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be355aef-38fd-4945-b77c-836d0d84d147")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -28.25 -53.79)
+		(end 28.25 53.79)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "0d947382-3e80-4722-9f42-3b0c2c4bda7e")
+	)
+	(fp_line
+		(start -28.25 -48.05)
+		(end -28.25 48.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "307f87f9-ddc6-4c1b-ae28-c41e2c6c0323")
+	)
+	(fp_line
+		(start -22.25 -53.79)
+		(end 22.25 -53.79)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "6bd8fd10-7c9e-4bbe-8e75-5615d04a447d")
+	)
+	(fp_line
+		(start -22.25 53.79)
+		(end 22.25 53.79)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "38ef10d0-89f1-4907-b1b9-30a4d098c641")
+	)
+	(fp_line
+		(start 28.25 -47.39)
+		(end 28.25 48.71)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "d4b9dfe9-eac4-420f-99e1-29ebad65ec11")
+	)
+	(fp_curve
+		(pts
+			(xy -28.25 48.05) (xy -22.05 48.05) (xy -22.25 53.79) (xy -22.25 53.79)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "082cdd45-9d43-4f23-96be-dd0cb1dca5ab")
+	)
+	(fp_curve
+		(pts
+			(xy -22.25 -53.79) (xy -22.25 -47.95) (xy -28.25 -48.05) (xy -28.25 -48.05)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "14af41db-6133-4415-a8f1-788ea79c4c3f")
+	)
+	(fp_curve
+		(pts
+			(xy 22.25 -53.79) (xy 22.25 -47.61) (xy 28.25 -47.39) (xy 28.25 -47.39)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "9deb2946-a60f-4113-8a12-e9a314bd8655")
+	)
+	(fp_curve
+		(pts
+			(xy 22.25 53.79) (xy 22.25 48.79) (xy 28.25 48.71) (xy 28.25 48.71)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "d9be3e8c-212c-4323-87d5-b87dee35c428")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c0dc714e-25dd-4f36-a7bf-1bf30c27d413")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "/home/sanyi/Documents/pedals/3d_models/1590B/1590B.stp"
+		(offset
+			(xyz 0 0 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

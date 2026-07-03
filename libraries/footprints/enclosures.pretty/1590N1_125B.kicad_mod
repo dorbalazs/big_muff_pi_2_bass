@@ -1,0 +1,137 @@
+(footprint "1590N1_125B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7f7ef8c6-8514-4e26-94f5-fe54229656e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "1590N1_125B"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "aea3e84e-01e5-46f6-9394-368b1a5f792d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.hammfg.com/pdf/1590n1.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "557d8564-93f7-4ca7-bf27-599efdee3c06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Aluminium enclosure outline"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31c5df07-0b29-49d8-9e9d-b26e881f8887")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -31 -58.85)
+		(end 31 58.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "7fae1866-fa37-4a92-adc6-0515c8d5ac5d")
+	)
+	(fp_curve
+		(pts
+			(xy -31 49.55) (xy -22.05 49.55) (xy -22.05 60.48) (xy -22.05 58.85)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "905c049a-1387-4f09-bef1-65672411a34b")
+	)
+	(fp_curve
+		(pts
+			(xy -22.05 -58.85) (xy -22.05 -49.55) (xy -31 -49.55) (xy -31 -49.55)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a1e06c79-cf7f-430a-a62e-0840b1393321")
+	)
+	(fp_curve
+		(pts
+			(xy 22.05 -58.85) (xy 22.05 -49.55) (xy 31 -49.55) (xy 31 -49.55)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "edc5e10f-0355-44da-85e7-f9f4562e5e88")
+	)
+	(fp_curve
+		(pts
+			(xy 22.05 58.85) (xy 22.05 49.55) (xy 29.22 49.55) (xy 31 49.55)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "cc1cdbbf-9ba0-4c99-a0d6-23ca3304ab45")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "03dc6004-8640-40d0-b7a4-9f86fbd6841f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "/home/sanyi/Documents/pedals/3d_models/1590N1/1590N1.stp"
+		(opacity 0.3800)
+		(offset
+			(xyz 0 0 15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

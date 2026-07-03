@@ -1,0 +1,137 @@
+(footprint "1590BB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.09 -54.41 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3dace8e5-0174-4624-aeb6-fa4b5b3948ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "1590BB"
+		(at 0.17 58.97 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0523711a-4807-4f38-87cf-ebe7febeaf99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db0ca2ff-f883-4bc1-893d-b02b2ac6b149")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe93e2d3-ab37-47c9-bd57-af94d6dfd6ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -44.75 -56.915)
+		(end 44.75 56.915)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "0f0aad36-844b-462e-a3e1-0f16d2d95f63")
+	)
+	(fp_curve
+		(pts
+			(xy -44.75 51.75) (xy -39 51.75) (xy -39 56.915) (xy -39 56.915)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d3913ad0-0d8a-42fc-8e8b-c84f58a7c147")
+	)
+	(fp_curve
+		(pts
+			(xy -39 -56.915) (xy -39 -51.75) (xy -44.75 -51.75) (xy -44.75 -51.75)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "becf1ec8-1fe7-4db8-bd55-878b37f6ec73")
+	)
+	(fp_curve
+		(pts
+			(xy 39 -56.915) (xy 39 -51.75) (xy 44.75 -51.75) (xy 44.75 -51.75)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "748d8bd5-bd28-43b2-bae5-a0e2af4a639a")
+	)
+	(fp_curve
+		(pts
+			(xy 39 56.915) (xy 39 51.75) (xy 44.75 51.75) (xy 44.75 51.75)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "cc57c0be-9428-483c-bf79-af7a6b6656ed")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.09 -52.78 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b9f0b8d8-6c3e-4bfb-a79f-0cf95e546494")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "/home/sanyi/Documents/pedals/3d_models/1590BB/1590BB.stp"
+		(opacity 0.4200)
+		(offset
+			(xyz 0 0 12)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
