@@ -1,8 +1,8 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
-	(symbol "SW_DPDTx3"
+	(generator_version "10.0")
+	(symbol "SW_DPDT_x3"
 		(pin_names
 			(offset 0)
 			(hide yes)
@@ -10,8 +10,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "SW"
 			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20,6 +24,8 @@
 		)
 		(property "Value" "SW_DPDT_x3"
 			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28,41 +34,49 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Switch, dual-pole dual-throw, 3 units"
 			(at 0.508 0.254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "switch dual dpdt 3 3pdt"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(symbol "SW_DPDTx3_0_0"
+		(symbol "SW_DPDT_x3_0_0"
 			(circle
 				(center -2.032 0)
 				(radius 0.508)
@@ -86,7 +100,7 @@
 				)
 			)
 		)
-		(symbol "SW_DPDTx3_0_1"
+		(symbol "SW_DPDT_x3_0_1"
 			(rectangle
 				(start -3.175 3.81)
 				(end 3.175 -3.81)
@@ -122,25 +136,7 @@
 				)
 			)
 		)
-		(symbol "SW_DPDTx3_1_1"
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
+		(symbol "SW_DPDT_x3_1_1"
 			(pin passive line
 				(at 5.08 2.54 180)
 				(length 2.54)
@@ -152,6 +148,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -178,11 +192,11 @@
 				)
 			)
 		)
-		(symbol "SW_DPDTx3_2_1"
+		(symbol "SW_DPDT_x3_2_1"
 			(pin passive line
-				(at -5.08 0 0)
+				(at 5.08 -2.54 180)
 				(length 2.54)
-				(name "B"
+				(name "C"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -198,9 +212,9 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 2.54 180)
+				(at -5.08 0 0)
 				(length 2.54)
-				(name "A"
+				(name "B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -216,9 +230,9 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -2.54 180)
+				(at 5.08 2.54 180)
 				(length 2.54)
-				(name "C"
+				(name "A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -234,25 +248,7 @@
 				)
 			)
 		)
-		(symbol "SW_DPDTx3_3_1"
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
+		(symbol "SW_DPDT_x3_3_1"
 			(pin passive line
 				(at 5.08 2.54 180)
 				(length 2.54)
@@ -264,6 +260,24 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
